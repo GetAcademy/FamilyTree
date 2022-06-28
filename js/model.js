@@ -5,7 +5,6 @@ const model = {
     },
     inputs: {
         addPage: {
-
         }
     },
     people: [
