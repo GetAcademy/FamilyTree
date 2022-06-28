@@ -1,6 +1,6 @@
 
 function updateViewSingle() {
-    const person = model.people.find(p => p.id = model.app.selectedPerson);
+    const person = model.people.find(p => p.id === model.app.selectedPerson);
     document.getElementById('app').innerHTML = /*html*/`
         <h3>
             ${person.firstName || ''}

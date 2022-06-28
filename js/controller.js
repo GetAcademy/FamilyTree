@@ -8,7 +8,6 @@ function goToAddPage(addRelationshopFunction) {
     model.inputs.addPage.addRelationshopFunction = addRelationshopFunction;
     model.inputs.addPage.person = {};
     model.app.page = 'add';
-    model.app.selectedPerson = null;
     updateView();
 }
 
