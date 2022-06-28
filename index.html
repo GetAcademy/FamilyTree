@@ -2,9 +2,9 @@
 <html lang="en">
 
 <head>
-    <script src="js/model.js"/>
-    <script src="js/listView.js"/>
-    <script src="js/singleView.js"/>
+    <script src="js/model.js"></script>
+    <script src="js/listView.js"></script>
+    <script src="js/singleView.js"></script>
 </head>
 
 <body>
@@ -12,10 +12,9 @@
 
     <script>
         updateView();
-
         function updateView() {
-            if (model.app.page == 'list') updateViewList();
-            else if (model.app.page == 'single') updateViewSingle();
+            if (model.app.page === 'list') updateViewList();
+            else if (model.app.page === 'single') updateViewSingle();
         }
     </script>
 </body>
