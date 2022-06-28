@@ -3,6 +3,11 @@ const model = {
         page: 'list',
         selectedPerson: null,
     },
+    inputs: {
+        addPage: {
+
+        }
+    },
     people: [
         { id: 1, firstName: "Sverre Magnus", birthYear: 2005 },
         { id: 2, firstName: "Ingrid Alexandra", birthYear: 2004 },

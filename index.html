@@ -5,6 +5,8 @@
     <script src="js/model.js"></script>
     <script src="js/listView.js"></script>
     <script src="js/singleView.js"></script>
+    <script src="js/addView.js"></script>
+    <script src="js/controller.js"></script>
 </head>
 
 <body>
@@ -15,6 +17,7 @@
         function updateView() {
             if (model.app.page === 'list') updateViewList();
             else if (model.app.page === 'single') updateViewSingle();
+            else if (model.app.page === 'add') updateViewAdd();
         }
     </script>
 </body>

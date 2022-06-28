@@ -5,7 +5,7 @@ function updateViewList() {
             ${p.firstName || ''} 
             ${p.lastName || ' '} 
             <small>født</small> ${p.birthYear} 
-            <a href="javascript:selectPerson(${p.id})"><small>velg</small></a>
+            <a href="javascript:goToSinglePage(${p.id})"><small>velg</small></a>
         </li>
     `).join('');
 }
